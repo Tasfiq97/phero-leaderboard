@@ -52,30 +52,30 @@
     <main>
         <!-- top player and blogs starts -->
         <section class="top-players container">
-            <h2 class="heading">Top Players</h2>
+            <h2 class="heading color-change">Top Players</h2>
             <div class="all-player">
 
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-6.png" alt="">
                     <h3 class="player-name">top player-1</h3>
                 </div>
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-1.png" alt="">
                     <h3 class="player-name"> top player-2</h3>
                 </div>
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-2.png" alt="">
                     <h3 class="player-name"> top player-3</h3>
                 </div>
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-3.png" alt="">
                     <h3 class="player-name">top player-4</h3>
                 </div>
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-4.png" alt="">
                     <h3 class="player-name"> top player-5</h3>
                 </div>
-                <div class="player-info">
+                <div class="player-info bg-color">
                     <img src="./images/players/player-5.png" alt="">
                     <h3 class="player-name">top player-6</h3>
                 </div>
@@ -84,7 +84,7 @@
 
             <hr>
             <div class="all-blogs">
-                <h2 class="heading">Top Blogs</h2>
+                <h2 class="heading color-change">Top Blogs</h2>
                 <div class="blogs">
                     <article class="blog-sec">
                         <div class="thumbnail">
@@ -146,7 +146,7 @@
         <!-- top course starts  -->
 
         <section class="container">
-            <h2 class="heading">Latest Courses</h2>
+            <h2 class="heading color-change">Latest Courses</h2>
 
             <div class="all-course">
                 <div class="courses">
@@ -220,7 +220,21 @@
                 </div>
             </div>
         </section>
+        <section>
+            <ul id="list-item">
+                <li>lorem 10</li>
+                <li>lorem 11</li>
+                <li>lorem 12</li>
+                <li id="list-last">lorem <span value=13 id="number-change">13</span></li>
+            </ul>
+            <button class="duration heading" onclick="addButton()">Add items</button>
+            <br>
+           <input id="number-input" value="0" class="heading" type="number">
+           <button id="num-plus" class="heading bg">+</button>
+            <h1>list items above</h1>
+        </section>
     </main>
+    <script src="app.js"></script>
 </body>
 
 </html>
